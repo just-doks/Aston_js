@@ -48,3 +48,6 @@ const myIterObj1 = new IterableObject(['a','b','c'])
 getLength(myIterObj1) // 3
 const myIterObj2 = new IterableObject("abcde")
 getLength(myIterObj2) // 5
+
+getLength(null) // 0
+getLength(undefined) // 0
