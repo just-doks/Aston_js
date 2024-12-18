@@ -11,6 +11,9 @@ function getLength(par) {
         console.log(length);
     }
     else
+    if (typeof par === 'function')
+        console.log(par.length)
+    else
     if (typeof par === 'object' 
         && par !== null 
         && typeof par.length === 'number'

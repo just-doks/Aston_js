@@ -72,3 +72,8 @@ console.log(Array.prototype.slice.call(wrongPseudoArr));
 console.log(Array.from(wrongPseudoArr)); 
 getLength(pseudoArr) // 4
 getLength(wrongPseudoArr) // 3
+
+function func3(a, b, c) {
+    console.log(a + b + c)
+}
+getLength(func3) // 3
