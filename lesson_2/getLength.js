@@ -11,6 +11,13 @@ function getLength(par) {
         console.log(length);
     }
     else
+    if (typeof par === 'object' 
+        && par !== null 
+        && typeof par.length === 'number'
+        && Number(par.length) >= 0) {
+            console.log(Array.from(par).length);
+        }
+    else
         console.log(0);
 }
 
