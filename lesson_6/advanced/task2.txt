@@ -1,0 +1,12 @@
+
+output:
+1
+2 A
+3 B
+7 C
+8 undefined
+4 B
+9 D
+10 undefined
+5 undefined
+6
